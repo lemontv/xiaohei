@@ -42,9 +42,6 @@
         background-color: black;
         border-color: black;
       }
-      .flex-control-nav, .flex-direction-nav {
-        display: none;
-      }
     </style>
     <script>
       $(window).load(function() {
@@ -53,9 +50,7 @@
           animation: "slide",
           slideshowSpeed: 2000,
           controlNav: false,
-          directionNav: false,
-          controlsContainer: null,
-          customDirectionNav: null
+          directionNav: false
         });
       });
     </script>
@@ -99,5 +94,6 @@
         </ul>
       </div>
     </div>
+    <audio id="music" loop="true" src="bgm.mp3" autoplay="true"></audio>
   </body>
 </html>
