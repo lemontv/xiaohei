@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>R.I.P. - 小黑</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1">
+    <meta name="description" content="小黑" />
+    <link href="lib/flexslider.css" rel="stylesheet" type="text/css">
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.flexslider-min.js"></script>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+        font-family: arial,sans-serif;
+      }
+      h1 {
+        font-size: 32px;
+        text-align: center;
+      }
+      .pic {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .pic img {
+        max-width: 300px;
+      }
+      .date {
+        font-size: 18px;
+        text-align: center;
+        margin: 20px;
+      }
+      .desc {
+        text-align: center;
+        font-size: 16px;
+        margin: 20px;
+      }
+      .flexslider {
+        background-color: black;
+        border-color: black;
+      }
+      .flex-control-nav, .flex-direction-nav {
+        display: none;
+      }
+    </style>
+    <script>
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          itemWidth: 300,
+          animation: "slide",
+          slideshowSpeed: 2000,
+          controlNav: false,
+          directionNav: false,
+          controlsContainer: null,
+          customDirectionNav: null
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>R.I.P.</h1>
+    <h1>最可爱的小黑</h1>
+    <div class="date">
+      2012/x/x - 2017/08/08
+    </div>
+    <div class="desc">
+      从来没想过你会离开，突然就后悔了，怎么没有多留一些照片。
+    </div>
+    <div class="pic">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="images/xiaohei.jpg" alt="小黑" />
+          </li>
+          <li>
+            <img src="images/2.jpg" alt="小黑" />
+          </li>
+          <li>
+            <img src="images/3.jpg" alt="小黑" />
+          </li>
+          <li>
+            <img src="images/4.jpg" alt="小黑" />
+          </li>
+          <li>
+            <img src="images/5.jpg" alt="小黑" />
+          </li>
+          <li>
+            <img src="images/6.jpg" alt="小黑" />
+          </li>
+          <li>
+            <img src="images/7.jpg" alt="小黑" />
+          </li>
+          <li>
+            <img src="images/8.jpg" alt="小黑" />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
